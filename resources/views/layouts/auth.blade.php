@@ -11,7 +11,7 @@
         <title>{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Scripts -->
-        <script src="{{ asset('js/app.js') }}" defer></script>
+        <script src="{{ secure_asset('js/app.js') }}" defer></script>
 
         <!-- Fonts -->
         <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -19,16 +19,16 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- Styles -->
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-        <link href="{{asset('assets/puymodal.css')}}" rel="stylesheet" type="text/css"/>
+        <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
+        <link href="{{secure_asset('assets/puymodal.css')}}" rel="stylesheet" type="text/css"/>
         <!-- Font Awesome Icons -->
-        <link rel="stylesheet" href="{{asset('plugins/fontawesome-free/css/all.min.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('plugins/fontawesome-free/css/all.min.css')}}">
         <!-- overlayScrollbars -->
-        <link rel="stylesheet" href="{{asset('plugins/overlayScrollbars/css/OverlayScrollbars.min.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('plugins/overlayScrollbars/css/OverlayScrollbars.min.css')}}">
         <!-- Theme style -->
-        <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('dist/css/adminlte.min.css')}}">
         <!-- Google Font: Source Sans Pro -->
-        <link href="{{asset('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700')}}" rel="stylesheet">
+        <link href="{{secure_asset('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700')}}" rel="stylesheet">
     </head>
     <body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
         <div class="wrapper">
@@ -188,29 +188,29 @@
 
 <!-- REQUIRED SCRIPTS -->
 <!-- jQuery -->
-<script src="{{asset('plugins/jquery/jquery.min.js')}}"></script>
+<script src="{{secure_asset('plugins/jquery/jquery.min.js')}}"></script>
 <!-- Bootstrap -->
-<script src="{{asset('plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{secure_asset('plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 <!-- overlayScrollbars -->
-<script src="{{asset('plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js')}}"></script>
+<script src="{{secure_asset('plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js')}}"></script>
 <!-- AdminLTE App -->
-<script src="{{asset('dist/js/adminlte.js')}}"></script>
+<script src="{{secure_asset('dist/js/adminlte.js')}}"></script>
 <!-- OPTIONAL SCRIPTS -->
-<script src="{{asset('dist/js/demo.js')}}"></script>
-<script src="{{ asset('js/app.js') }}"></script>
+<script src="{{secure_asset('dist/js/demo.js')}}"></script>
+<script src="{{ secure_asset('js/app.js') }}"></script>
 <!-- PAGE PLUGINS -->
 <!-- jQuery Mapael -->
-<script src="{{asset('plugins/jquery-mousewheel/jquery.mousewheel.js')}}"></script>
-<script src="{{asset('plugins/raphael/raphael.min.js')}}"></script>
-<script src="{{asset('plugins/jquery-mapael/jquery.mapael.min.js')}}"></script>
-<script src="{{asset('plugins/jquery-mapael/maps/usa_states.min.js')}}"></script>
+<script src="{{secure_asset('plugins/jquery-mousewheel/jquery.mousewheel.js')}}"></script>
+<script src="{{secure_asset('plugins/raphael/raphael.min.js')}}"></script>
+<script src="{{secure_asset('plugins/jquery-mapael/jquery.mapael.min.js')}}"></script>
+<script src="{{secure_asset('plugins/jquery-mapael/maps/usa_states.min.js')}}"></script>
 <!-- ChartJS -->
-<script src="{{asset('plugins/chart.js/Chart.min.js')}}"></script>
+<script src="{{secure_asset('plugins/chart.js/Chart.min.js')}}"></script>
 
 <!-- PAGE SCRIPTS -->
-<script src="{{asset('dist/js/pages/dashboard2.js')}}"></script>
+<script src="{{secure_asset('dist/js/pages/dashboard2.js')}}"></script>
 
-<script src="{{asset('assets/puymodals.js')}}"></script>
+<script src="{{secure_asset('assets/puymodals.js')}}"></script>
 
 <script>
     jQuery(document).ready(function () {
