@@ -11,7 +11,7 @@
         <title>{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Scripts -->
-        <script src="{{ secure_asset('js/app.js') }}" defer></script>
+        <script src="{{ asset('js/app.js') }}" defer></script>
 
         <!-- Fonts -->
         <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -19,16 +19,16 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- Styles -->
-        <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
-        <link href="{{secure_asset('assets/puymodal.css')}}" rel="stylesheet" type="text/css"/>
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link href="{{asset('assets/puymodal.css')}}" rel="stylesheet" type="text/css"/>
         <!-- Font Awesome Icons -->
-        <link rel="stylesheet" href="{{secure_asset('plugins/fontawesome-free/css/all.min.css')}}">
+        <link rel="stylesheet" href="{{asset('plugins/fontawesome-free/css/all.min.css')}}">
         <!-- overlayScrollbars -->
-        <link rel="stylesheet" href="{{secure_asset('plugins/overlayScrollbars/css/OverlayScrollbars.min.css')}}">
+        <link rel="stylesheet" href="{{asset('plugins/overlayScrollbars/css/OverlayScrollbars.min.css')}}">
         <!-- Theme style -->
-        <link rel="stylesheet" href="{{secure_asset('dist/css/adminlte.min.css')}}">
+        <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}">
         <!-- Google Font: Source Sans Pro -->
-        <link href="{{secure_asset('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700')}}" rel="stylesheet">
+        <link href="{{asset('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700')}}" rel="stylesheet">
     </head>
     <body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
         <div class="wrapper">
@@ -83,13 +83,13 @@
                         <aside class="main-sidebar elevation-4" style="background-color: #00003f;">
                             <!-- Brand Logo -->
                             <a href="#" class="brand-link"><br>
-                                <img src="{{asset('uploads\logo\Enaya_Logo.png')}}" style="margin-left:65px" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+                                <img src="{{asset('uploads\logo\logo.png')}}" style="margin-left:70px; width: 65px" alt="AdminLTE Logo" class="brand-image img-circle elevation-4"
                                      style="opacity: .8">
                             </a>
                             <!-- Sidebar -->
                             <div class="sidebar">
                                 <!-- Sidebar user panel (optional) -->
-                                <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                                <br><br><div class="user-panel mt-3 pb-3 mb-3 d-flex">
                                     <div class="image">
                                         <img src="/uploads/avatars/{{$admin->avatar}}" class="img-circle elevation-2" alt="User Image">
                                     </div>
@@ -188,29 +188,29 @@
 
 <!-- REQUIRED SCRIPTS -->
 <!-- jQuery -->
-<script src="{{secure_asset('plugins/jquery/jquery.min.js')}}"></script>
+<script src="{{asset('plugins/jquery/jquery.min.js')}}"></script>
 <!-- Bootstrap -->
-<script src="{{secure_asset('plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{asset('plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 <!-- overlayScrollbars -->
-<script src="{{secure_asset('plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js')}}"></script>
+<script src="{{asset('plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js')}}"></script>
 <!-- AdminLTE App -->
-<script src="{{secure_asset('dist/js/adminlte.js')}}"></script>
+<script src="{{asset('dist/js/adminlte.js')}}"></script>
 <!-- OPTIONAL SCRIPTS -->
-<script src="{{secure_asset('dist/js/demo.js')}}"></script>
-<script src="{{ secure_asset('js/app.js') }}"></script>
+<script src="{{asset('dist/js/demo.js')}}"></script>
+<script src="{{ asset('js/app.js') }}"></script>
 <!-- PAGE PLUGINS -->
 <!-- jQuery Mapael -->
-<script src="{{secure_asset('plugins/jquery-mousewheel/jquery.mousewheel.js')}}"></script>
-<script src="{{secure_asset('plugins/raphael/raphael.min.js')}}"></script>
-<script src="{{secure_asset('plugins/jquery-mapael/jquery.mapael.min.js')}}"></script>
-<script src="{{secure_asset('plugins/jquery-mapael/maps/usa_states.min.js')}}"></script>
+<script src="{{asset('plugins/jquery-mousewheel/jquery.mousewheel.js')}}"></script>
+<script src="{{asset('plugins/raphael/raphael.min.js')}}"></script>
+<script src="{{asset('plugins/jquery-mapael/jquery.mapael.min.js')}}"></script>
+<script src="{{asset('plugins/jquery-mapael/maps/usa_states.min.js')}}"></script>
 <!-- ChartJS -->
-<script src="{{secure_asset('plugins/chart.js/Chart.min.js')}}"></script>
+<script src="{{asset('plugins/chart.js/Chart.min.js')}}"></script>
 
 <!-- PAGE SCRIPTS -->
-<script src="{{secure_asset('dist/js/pages/dashboard2.js')}}"></script>
+<script src="{{asset('dist/js/pages/dashboard2.js')}}"></script>
 
-<script src="{{secure_asset('assets/puymodals.js')}}"></script>
+<script src="{{asset('assets/puymodals.js')}}"></script>
 
 <script>
     jQuery(document).ready(function () {
